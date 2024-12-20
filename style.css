@@ -1,0 +1,30 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(253, 75, 31);
+}
+
+.sfondo{
+    height: 100%;
+    background:linear-gradient(120deg, #171219,#225560,#CBD4C2,#FFFCFF);
+
+}
+
+.sfondo:hover{
+    background:linear-gradient(120deg, #45062E,#7F055F,#E5A4CB,#EBD2BE);
+}
+
+.box{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url(./media/background4.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
